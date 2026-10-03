@@ -1,3 +1,5 @@
+<div align="center">
+
 # Last Exit
 
 **Most trackers tell you where you are. Last Exit tells you the last day you can still turn around.**
@@ -5,14 +7,17 @@
 Last Exit is a native Android app for the CODEXIS hackathon theme: *a tool that helps people keep an eye on something that can be pushed too far, and warns them clearly before they cross the line and it's too late to turn back.* It tracks money, time, resources or risk against a limit. For each one it calculates a **last exit date**: the latest day on which a realistic change in behaviour still keeps you under the limit. It warns you before that date passes, usually days or weeks before the limit itself is crossed.
 
 **[Download the APK (0.9 MB, Android 8.0+)](https://github.com/hashimfowad2010/Last-Exit/releases/download/v1.1/LastExit-v1.1.apk)**
+</div>
 
 | Demo: red warning, limit not crossed yet | Detail: chart with the LAST EXIT marker | Home: worst first |
 |---|---|---|
 | ![Demo red](docs/screenshots/demo-red.jpg) | ![Detail](docs/screenshots/detail-last-exit.jpg) | ![Home](docs/screenshots/home-list.jpg) |
 
+
 | Quick-log previews the status before you commit | What if? (nothing saved) | Demo: warned 8 days before the crossing | Dark mode |
 |---|---|---|---|
 | ![Quick log](docs/screenshots/quick-log.jpg) | ![What if](docs/screenshots/what-if.jpg) | ![Crossed](docs/screenshots/demo-crossed.jpg) | ![Dark](docs/screenshots/detail-dark.jpg) |
+
 
 **Four colour themes (plus Wallpaper on Android 12+), each in light and dark:**
 
