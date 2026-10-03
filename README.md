@@ -4,7 +4,7 @@
 
 Last Exit is a native Android app for the CODEXIS hackathon theme: *a tool that helps people keep an eye on something that can be pushed too far, and warns them clearly before they cross the line and it's too late to turn back.* It tracks money, time, resources or risk against a limit. For each one it calculates a **last exit date**: the latest day on which a realistic change in behaviour still keeps you under the limit. It warns you before that date passes, usually days or weeks before the limit itself is crossed.
 
-**[Download the APK (`dist/LastExit-v1.1.apk`, 0.9 MB, Android 8.0+)](dist/LastExit-v1.1.apk)** · [Upgraded build prompt](docs/PROMPT.md)
+**[Download the APK (0.9 MB, Android 8.0+)](https://github.com/hashimfowad2010/Last-Exit/releases/download/v1.1/LastExit-v1.1.apk)**
 
 | Demo: red warning, limit not crossed yet | Detail: chart with the LAST EXIT marker | Home: worst first |
 |---|---|---|
@@ -22,9 +22,8 @@ These screenshots are real renders of the app's screens, taken by the automated 
 
 ## Install the APK on a phone
 
-1. Copy `dist/LastExit-v1.1.apk` to the phone (or open this repo's file page on the phone and download it).
+1. Download APK file to the phone (or open this repo's Releases page on the phone and download it).
 2. Tap it. Android asks you to allow installs from that source the first time; allow it and tap **Install**.
-3. Or, with USB debugging on: `adb install -r dist/LastExit-v1.1.apk`.
 
 If an older build signed with a different key is installed, uninstall it first.
 
@@ -142,7 +141,6 @@ tools/offline-apk/          Reproducible APK build without Google Maven (see bel
   | Navigation Compose | A route back stack with deep links |
   | ViewModel / StateFlow | Screens observing a single in-memory store, with state saved in Bundles |
 
-  [`docs/PROMPT.md`](docs/PROMPT.md) keeps the Compose stack, with exact versions, for teams with normal internet access.
 - **Threading:** every mutation happens on the main thread against an in-memory snapshot. SQLite writes then go, in order, to one background thread. Storage failures are logged rather than crashing.
 
 ## Tests
