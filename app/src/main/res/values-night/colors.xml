@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#FF0B1120</color>
+    <color name="on_surface">#FFE6EAF2</color>
+    <color name="on_surface_muted">#FF9AA4B8</color>
+
+    <color name="accent_highway">#FF2DD4BF</color>
+    <color name="accent_midnight">#FFA5B4FC</color>
+    <color name="accent_ocean">#FF60A5FA</color>
+    <color name="accent_graphite">#FFCBD5E1</color>
+    <color name="accent_wallpaper">#FF2DD4BF</color>
+</resources>

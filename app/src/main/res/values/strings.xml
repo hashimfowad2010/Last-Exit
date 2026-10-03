@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Last Exit</string>
+    <string name="channel_warnings_name">Limit warnings</string>
+    <string name="channel_warnings_description">Sent only when a limit moves closer to its point of no return.</string>
+</resources>

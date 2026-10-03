@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Window colours match ui/kit/Palette.kt so there is no flash before the first frame. -->
+    <color name="app_background">#FFF3F5F9</color>
+    <color name="on_surface">#FF0F172A</color>
+    <color name="on_surface_muted">#FF5B6577</color>
+
+    <!-- Accent per colour theme (framework widgets: switches, date pickers, cursors). -->
+    <color name="accent_highway">#FF0F766E</color>
+    <color name="accent_midnight">#FF4F46E5</color>
+    <color name="accent_ocean">#FF2563EB</color>
+    <color name="accent_graphite">#FF334155</color>
+    <color name="accent_wallpaper">#FF0F766E</color>
+
+    <!-- Launcher icon gradient. -->
+    <color name="launcher_start">#FF0D9488</color>
+    <color name="launcher_end">#FF1E3A8A</color>
+</resources>

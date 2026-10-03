@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.LastExit" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Default colour theme: Highway. The others only swap the accent. -->
+    <style name="Theme.LastExit" parent="Base.Theme.LastExit">
+        <item name="android:colorPrimary">@color/accent_highway</item>
+        <item name="android:colorPrimaryDark">@color/app_background</item>
+        <item name="android:colorAccent">@color/accent_highway</item>
+        <item name="android:colorControlActivated">@color/accent_highway</item>
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:statusBarColor">@color/app_background</item>
+        <item name="android:navigationBarColor">@color/app_background</item>
+        <item name="android:textColorPrimary">@color/on_surface</item>
+        <item name="android:textColorSecondary">@color/on_surface_muted</item>
+    </style>
+
+    <style name="Theme.LastExit.Midnight">
+        <item name="android:colorPrimary">@color/accent_midnight</item>
+        <item name="android:colorAccent">@color/accent_midnight</item>
+        <item name="android:colorControlActivated">@color/accent_midnight</item>
+    </style>
+
+    <style name="Theme.LastExit.Ocean">
+        <item name="android:colorPrimary">@color/accent_ocean</item>
+        <item name="android:colorAccent">@color/accent_ocean</item>
+        <item name="android:colorControlActivated">@color/accent_ocean</item>
+    </style>
+
+    <style name="Theme.LastExit.Graphite">
+        <item name="android:colorPrimary">@color/accent_graphite</item>
+        <item name="android:colorAccent">@color/accent_graphite</item>
+        <item name="android:colorControlActivated">@color/accent_graphite</item>
+    </style>
+
+    <style name="Theme.LastExit.Wallpaper">
+        <item name="android:colorPrimary">@color/accent_wallpaper</item>
+        <item name="android:colorAccent">@color/accent_wallpaper</item>
+        <item name="android:colorControlActivated">@color/accent_wallpaper</item>
+    </style>
+
+    <!-- Slide-up bottom sheets (quick log, theme picker). -->
+    <style name="SheetAnimation">
+        <item name="android:windowEnterAnimation">@anim/sheet_in</item>
+        <item name="android:windowExitAnimation">@anim/sheet_out</item>
+    </style>
+</resources>
